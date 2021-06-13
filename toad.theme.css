@@ -103,3 +103,23 @@ button[aria-label="Send a gift"] {
 .jumpToPresentBar-G1R9s6 .barButtonIcon-3t4V3d:hover, .jumpToPresentBar-G1R9s6 .barButtonIcon-3t4V3d:active {
     opacity: .4;
 }
+
+.membersWrap-2h-GB4{
+    min-width: unset;
+}
+.members-1998pB{
+    max-width: 65px;
+    min-width: 65px;
+    transition: .3s ease;
+}
+.members-1998pB:hover{
+    max-width: 240px;
+    min-width: 240px;
+}
+div:not(:hover)>.membersGroup-v9BXpm{
+    height: 0px;
+    padding: 0%;
+}
+div:not(:hover)>.members-1998pB>div{
+    padding-top: 10px;
+}
