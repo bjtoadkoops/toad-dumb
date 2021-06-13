@@ -69,3 +69,21 @@ button[aria-label="Send a gift"] {
   html:root {
     --font-display: var(--font-primary);
 }
+
+/* Usernames */
+.username-1A8OIy,
+/* Text */
+.markup-2BOw-j {
+  animation: rainbow 5s linear 0s infinite normal
+}
+@keyframes rainbow {
+    0%    {color: #ff0000}
+    12%   {color: #ffbf00}
+    25%   {color: #80ff00}
+    37%   {color: #00ff40}
+    50%   {color: #00ffff}
+    62%   {color: #0040ff}
+    75%   {color: #8000ff}
+    87%   {color: #eb34bd}
+    100%  {color: #ff0000}
+}
