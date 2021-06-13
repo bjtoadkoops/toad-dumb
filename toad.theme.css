@@ -1,0 +1,63 @@
+/**
+ * @name         Toad's Client Mods
+ * @description  Read the title dumbass.
+ * @author       bjtoadkoops
+ * @version      1.0 
+ */
+
+.userPopout-3XzG_A[style*="--user-background"] .profileBanner-33-uE1 {
+    height: 120px;
+    background: var(--user-background) var(--user-popout-position, center) center / cover;
+}
+.userPopout-3XzG_A[style*="--user-background"] .avatarPositionNormal-1CZUPk {
+    top: 76px;
+}
+
+.layer-3QrUeG {
+    transform: none !important;
+    opacity: 1 !important;
+}
+
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada *,
+.layers-3iHuyZ>.layer-3QrUeG.animating-rRxada {
+    pointer-events: auto !important;
+    will-change: unset;
+}
+
+.animating-rRxada.stop-animations {
+    z-index: 100 !important;
+}
+
+.container-16j22k {background: transparent; pointer-events: none}
+.container-16j22k>div {display: none}
+.container-16j22k::before {
+    content: "You've gone offline";
+    display: block;
+    bottom: 24px; right: 24px;
+    position: absolute;
+    padding: 8px 16px;
+    background-color: #f04747;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500
+}
+
+[href="/store"], [aria-controls="Discord Nitro-tab"],[aria-controls="Billing-tab"],[aria-controls="Nitro Server Boost-tab"],
+#guild-header-popout > div > .separator-2I32lJ:nth-child(2),.shinyButton-3uFlM-,
+.emojiSection-3Fb9ix > .flex-1xMQg5 > .size14-e6ZScH,.emojiSection-3Fb9ix > .flex-1xMQg5 > .flex-1xMQg5 > .size14-e6ZScH,
+.emptyStateSubtext-2hdA9c, .content-2c3hgM, .wrapper-1hrFc0, .wrapper-3nSjSv, .divider-Uf0Wob,
+.perksModalContentWrapper-2HU6uL > .content-2qfHzC:nth-child(3),.guildsBlurb-2AgVCC,.marketingHeader-d16BX1,
+.content-3BhRLj > div:not(.marketingLogo-1D8DV6), .content-3BhRLj > h3,.subscribeTooltipWrapper-1JoUuw,
+.headerBlurb-1GxBrq,.giftAction-yhDLaW,.tierMarkerLabelContainer-1qM0Ak, .upsell-34F9Me,
+.premiumPromo-fVlLu-,.stickerShopIconWrapper-2SZmQ6,.selectorButtonPremiumRequired-mKMbIu,.premiumUpsell-2vHaVa { display: none;}
+.emojiSection-3Fb9ix > .flex-1xMQg5, .popoutContainer-1MXdqN > .flex-1xMQg5 { flex-direction: column; align-items: center;}
+.emojiSection-3Fb9ix > .flex-1xMQg5 > .flex-1xMQg5,
+.popoutContainer-1MXdqN > .flex-1xMQg5 > .flex-1xMQg5 { margin-left: 0px; }
+.primaryEmoji-3LinDq { margin: 0px 0px 12px 0; }
+.popoutContainer-1MXdqN { width: auto; }
+.ctaBar-2UsjF2 { margin: auto;}
+.wrapper-2iFQJ9 > .header-2k4I2o > .wrapper-3ir_7D { padding-right: 0;}
+.settingsGroup-2NaPKC .item-3T2z1R:nth-child(2) { border-radius: 0 3px 3px 0;}
+
+.setIdentityLink-OpBDR6 {display: none}
+
