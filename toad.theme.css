@@ -33,7 +33,7 @@
 .container-16j22k {background: transparent; pointer-events: none}
 .container-16j22k>div {display: none}
 .container-16j22k::before {
-    content: "You've gone offline";
+    content: "Discord cannot establish an internet connection.";
     display: block;
     bottom: 24px; right: 24px;
     position: absolute;
