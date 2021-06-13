@@ -62,3 +62,10 @@
 
 .setIdentityLink-OpBDR6 {display: none}
 
+/* Hide Nitro gift button */
+button[aria-label="Send a gift"] {
+  display: none;
+
+  html:root {
+    --font-display: var(--font-primary);
+}
