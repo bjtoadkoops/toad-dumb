@@ -114,3 +114,21 @@ div:not(:hover)>.membersGroup-v9BXpm{
 div:not(:hover)>.members-1998pB>div{
     padding-top: 10px;
 }
+
+mirror-1Z13AJ {transform: none}
+
+@import url('https://Goose-Nest.github.io/GT-RevertRebrand/src/components/wordmark.css');
+
+.cozy-3raOZG .assetWrapper-3GNt0z {
+    max-width: 48px;
+    max-height: 48px
+}
+    
+.stickerButton-3OEgwj {display: none}
+    
+#sticker-picker-tab {display: none}
+
+/* Hide nitro icon on banners */
+.bannerPremium-2hSAwz .premiumIconWrapper-1A-UH5 {
+  display: none;
+}
